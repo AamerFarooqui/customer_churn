@@ -41,11 +41,15 @@ This project aims to answer:
 ### 1. Churn Rate
 - Overall churn rate is ~26.5%, indicating a significant retention issue
 
+<img width="546" height="400" alt="image" src="https://github.com/user-attachments/assets/84cba12e-6e25-48d3-836b-20860620c42a" />
+
 ---
 
 ### 2. Customer Lifecycle
 - New customers (low tenure) → highest churn risk  
 - Long-term customers → more loyal  
+
+<img width="1171" height="535" alt="image" src="https://github.com/user-attachments/assets/31831b06-185f-4086-bb00-c71446de3c60" />
 
 Insight: Early engagement is critical
 
@@ -54,6 +58,8 @@ Insight: Early engagement is critical
 ### 3. Contract Type Impact
 - Month-to-month contracts → highest churn  
 - Long-term contracts → strong retention  
+
+<img width="993" height="680" alt="image" src="https://github.com/user-attachments/assets/438bada4-6002-4f0d-96a3-f280f00adc2a" />
 
 Insight: Stability reduces churn
 
@@ -67,6 +73,8 @@ Customers without:
 
 → churn significantly more  
 
+<img width="1480" height="1190" alt="image1" src="https://github.com/user-attachments/assets/452b9721-bce7-4c2a-8b52-904e248f7c75" />
+
 Insight: Value-added services improve retention
 
 ---
@@ -75,12 +83,16 @@ Insight: Value-added services improve retention
 - Electronic check users → highest churn  
 - Auto-payment users → lower churn  
 
+<img width="827" height="758" alt="image" src="https://github.com/user-attachments/assets/1cd98e73-057e-4881-ad43-a4dadb69b5d9" />
+
 Insight: Convenience matters
 
 ---
 
 ### 6. Demographics
 - Senior citizens show higher churn  
+
+<img width="691" height="575" alt="image" src="https://github.com/user-attachments/assets/f0f98468-419d-4cdc-b89e-912a580bab99" />
 
 Insight: Need targeted support strategies
 
