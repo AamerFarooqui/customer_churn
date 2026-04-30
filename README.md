@@ -12,18 +12,18 @@ The goal is to help businesses reduce churn, improve customer retention, and inc
 customer-churn-analysis/
 │
 ├── data/
-│   └── customer_churn.csv       # Dataset
+│   └── customer_churn.csv
 │
 ├── notebook/
-│   └── TCA.ipynb                # Python analysis (EDA)
+│   └── TCA.ipynb
 │
 ├── sql/
-│   └── churn_analysis.sql       # SQL queries
+│   └── churn_analysis.sql
 │
 ├── report/
-│   └── Summary.pdf              # Insights & recommendations
+│   └── Summary.pdf
 │
-└── README.md                    # Project documentation
+└── README.md
 
 ---
 
