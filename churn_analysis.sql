@@ -65,7 +65,6 @@ FROM customer_churn
 GROUP BY Churn;
 
 -- 11 Identify the top 3 factors contributing to churn
--- (based on highest churn rates across features).
 
 -- Senior Citizen
 SELECT 'SeniorCitizen' AS feature,
@@ -81,14 +80,6 @@ InternetService AS category,
 ROUND(SUM(Churn = 'Yes')/COUNT(*),2)*100
 FROM customer_churn
 GROUP BY InternetService
-
--- Paperless billing
-UNION ALL
-SELECT 'PaperlessBilling' AS feature,
-PaperlessBilling AS category,
-ROUND(SUM(Churn = 'Yes')/COUNT(*),2)*100
-FROM customer_churn
-GROUP BY PaperlessBilling
 
 -- Payment Method
 UNION ALL
@@ -126,7 +117,7 @@ GROUP BY Risk_capecity,tenure_group
 ORDER BY tenure_group ASC
 LIMIT 3;
 
--- By Monthly charges
+-- By PaymentMethod
 SELECT 
     PaymentMethod,
     ROUND(SUM(Churn = 'Yes') / COUNT(*) * 100, 2) AS churn_rate,
