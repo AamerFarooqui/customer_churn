@@ -1,174 +1,129 @@
-📊 Customer Churn Analysis Project
+# 📊 Customer Churn Analysis Project
 
-📌 Project Overview
+## 🔍 Project Overview
+This project focuses on analyzing customer churn behavior using SQL and Python to uncover key drivers of customer attrition and provide actionable business recommendations.
 
-This project focuses on analyzing customer churn data to identify key factors influencing customer retention and churn behavior. The dataset contains 7,043 customer records with 21 features including demographics, services subscribed, billing details, and churn status.
-
-The goal of this project is to perform data cleaning, exploratory data analysis (EDA), and business insights extraction using Python.
-
+The goal is to help businesses reduce churn, improve customer retention, and increase customer lifetime value (CLV) through data-driven insights.
 
 ---
 
-🎯 Objectives
+# 📁 Project Structure
 
-Understand customer churn patterns
-
-Perform data cleaning and preprocessing
-
-Handle missing and inconsistent data
-
-Explore relationships between customer attributes and churn
-
-Generate actionable business insights
-
-
-
----
-
-📂 Dataset Information
-
-Total Records: 7,043
-
-Total Features: 21
-
-Target Variable: Churn
-
-File Used: Customer Churn.csv
-
-
-Key Features:
-
-Demographics: gender, SeniorCitizen, Partner, Dependents
-
-Account Info: tenure, Contract, PaperlessBilling
-
-Services: PhoneService, InternetService, StreamingTV, etc.
-
-Billing: MonthlyCharges, TotalCharges
-
-Target: Churn
-
-
-
----
-
-🛠️ Technologies Used
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-
-
----
-
-🔄 Data Cleaning & Preprocessing
-
-✔ Replaced blank values in TotalCharges with 0
-✔ Converted TotalCharges from object to float
-✔ Checked and confirmed:
-
-No null values
-
-No duplicate records
-✔ Converted SeniorCitizen values from (0,1) to (No,Yes)
-
-
-
----
-
-📊 Exploratory Data Analysis (EDA)
-
-The following analysis was performed:
-
-Distribution of customer demographics
-
-Tenure analysis
-
-Monthly vs Total charges analysis
-
-Service subscription patterns
-
-Contract type vs churn relationship
-
-Payment method vs churn impact
-
-Senior citizen churn trends
-
-
-
----
-
-📈 Key Insights
-
-Customers with month-to-month contracts are more likely to churn.
-
-Higher monthly charges are associated with higher churn probability.
-
-Customers with short tenure show higher churn rates.
-
-Certain payment methods (like electronic check) show higher churn trends.
-
-Long-term contracts significantly reduce churn risk.
-
-
-
----
-
-📌 Project Structure
-
-Customer-Churn-Analysis/
+customer-churn-analysis/
 │
-├── Customer Churn.csv
-├── churn_analysis.ipynb
-├── README.md
-
-
----
-
-🚀 How to Run This Project
-
-1. Clone the repository
-
-
-
-git clone https://github.com/your-username/customer-churn-analysis.git
-
-2. Install required libraries
-
-
-
-pip install pandas numpy matplotlib seaborn
-
-3. Open Jupyter Notebook
-
-
-
-jupyter notebook
-
-4. Run churn_analysis.ipynb
-
-
-
+├── data/
+│   └── customer_churn.csv       # Dataset
+│
+├── notebook/
+│   └── TCA.ipynb                # Python analysis (EDA)
+│
+├── sql/
+│   └── churn_analysis.sql       # SQL queries
+│
+├── report/
+│   └── Summary.pdf              # Insights & recommendations
+│
+└── README.md                    # Project documentation
 
 ---
 
-💡 Business Impact
+## 🎯 Business Problem
+Customer churn leads to revenue loss and reduced growth.  
+This project aims to answer:
 
-This analysis helps businesses:
+- Why are customers leaving?
+- Which segments are at high risk?
+- What actions can reduce churn?
 
-Identify high-risk customers
+---
 
-Improve customer retention strategies
+## 📊 Key Insights
 
-Optimize pricing and contract structures
+### 1. Churn Rate
+- Overall churn rate is ~26.5%, indicating a significant retention issue
 
-Make data-driven business decisions
+---
+
+### 2. Customer Lifecycle
+- New customers (low tenure) → highest churn risk  
+- Long-term customers → more loyal  
+
+Insight: Early engagement is critical
+
+---
+
+### 3. Contract Type Impact
+- Month-to-month contracts → highest churn  
+- Long-term contracts → strong retention  
+
+Insight: Stability reduces churn
+
+---
+
+### 4. Service Usage
+Customers without:
+- Online Security  
+- Tech Support  
+- Device Protection  
+
+→ churn significantly more  
+
+Insight: Value-added services improve retention
+
+---
+
+### 5. Payment Behavior
+- Electronic check users → highest churn  
+- Auto-payment users → lower churn  
+
+Insight: Convenience matters
+
+---
+
+### 6. Demographics
+- Senior citizens show higher churn  
+
+Insight: Need targeted support strategies
+
+---
+
+## 🚀 Business Recommendations
+
+- Improve onboarding for new customers (first 90 days)
+- Bundle services like:
+  - Tech Support
+  - Security
+  - Device Protection
+- Promote long-term contracts with incentives
+- Encourage auto-pay through discounts
+- Create senior-friendly plans and support
+- Improve perceived value of premium services (e.g., fiber)
+
+---
+
+## 🛠️ Tech Stack
+
+- SQL – Data extraction & churn analysis  
+- Python (Pandas, Matplotlib, Seaborn) – EDA & visualization  
+- Jupyter Notebook – Analysis workflow  
+- PDF Reporting – Business communication  
+
+---
+
+## 💡 What This Project Demonstrates
+
+- Strong SQL analytical skills
+- Ability to translate data into business insights
+- Understanding of customer behavior & retention strategies
+- End-to-end data analysis workflow
+- Ability to communicate findings clearly to stakeholders
+
+---
+
+## 📌 Conclusion
+This project shows that churn is driven more by customer experience, service value, and engagement than basic product usage.
+
+By applying the insights from this analysis, businesses can:
+- Reduce churn  
+- Improve retention  
+- Increase long-term profitability  
