@@ -137,4 +137,18 @@ This project shows that churn is driven more by customer experience, service val
 By applying the insights from this analysis, businesses can:
 - Reduce churn  
 - Improve retention  
-- Increase long-term profitability  
+- Increase long-term profitability
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Aamer Farooqui**
+
+* GitHub: https://github.com/AamerFarooqui
+* LinkedIn: https://www.linkedin.com/in/aamer-farooqui-34b1402ba
