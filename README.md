@@ -8,9 +8,9 @@ The goal is to help businesses reduce churn, improve customer retention, and inc
 ---
 
 # 📁 Project Structure
-
+```
 customer-churn-analysis/
-├── data/
+├── dataset/
 │   └── customer_churn.csv
 │
 ├── notebook/
@@ -23,7 +23,7 @@ customer-churn-analysis/
 │   └── Summary.pdf
 │
 └── README.md
-
+```
 ---
 
 ## 🎯 Business Problem
